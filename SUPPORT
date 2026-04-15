@@ -1,1 +1,208 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PropertyIQ – Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+    }
+
+    header {
+      background: #1a1a2e;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+
+    header .logo span {
+      color: #4f8ef7;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+      padding: 64px 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      opacity: 0.75;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 36px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+
+    .card h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #1a1a2e;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #f0f0f0;
+      padding: 16px 0;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .faq-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #1a1a2e;
+    }
+
+    .faq-item p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .contact-box {
+      background: linear-gradient(135deg, #4f8ef7, #0f3460);
+      border-radius: 16px;
+      padding: 40px;
+      text-align: center;
+      color: white;
+      margin-bottom: 24px;
+    }
+
+    .contact-box h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .contact-box p {
+      font-size: 16px;
+      opacity: 0.85;
+      margin-bottom: 24px;
+    }
+
+    .contact-box a {
+      display: inline-block;
+      background: white;
+      color: #0f3460;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+
+    .contact-box a:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #4f8ef7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Property<span>IQ</span></div>
+  </header>
+
+  <div class="hero">
+    <h1>Support Center</h1>
+    <p>We're here to help you get the most out of PropertyIQ.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>How do I create an account?</h3>
+        <p>Download the PropertyIQ app and tap "Sign Up". Enter your email address and create a password to get started.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I reset my password?</h3>
+        <p>On the login screen, tap "Forgot Password" and enter your email. You'll receive a link to reset your password within a few minutes.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I save or favourite a property?</h3>
+        <p>Tap the heart icon on any property listing to save it to your favourites. You can view all saved properties in the Saved tab.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is PropertyIQ available on both iOS and Android?</h3>
+        <p>Yes, PropertyIQ is available on both the Apple App Store and Google Play Store.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I delete my account?</h3>
+        <p>To request account deletion, please email us at <a href="mailto:aaprzy@gmail.com" style="color:#4f8ef7;">aaprzy@gmail.com</a> and we will process your request within 7 days.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>I found a bug. How do I report it?</h3>
+        <p>Please email us with a description of the issue and, if possible, a screenshot. We take all bug reports seriously and aim to fix issues quickly.</p>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h2>Still need help?</h2>
+      <p>Our support team is happy to assist you with any questions or issues.</p>
+      <a href="mailto:aaprzy@gmail.com">Contact Support</a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 PropertyIQ. All rights reserved.
+  </footer>
+
+</body>
+</html>
